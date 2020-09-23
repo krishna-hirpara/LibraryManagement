@@ -1,0 +1,288 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background-color: #f7f7f7;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+header{
+	background-color: #350142;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0px 20px 0px 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header a:hover{
+	border-bottom: 2px solid white;
+}
+
+#showcase{
+	min-height: 1000px;
+	background: url(book3.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #ffffff;
+}
+
+#showcase h1{
+	margin-top: 40px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+
+#showcase p{
+	font-size: 25px;
+}
+
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+#boxes .box img{
+	border: 5px solid #350142;
+	border-radius: 20px;
+}
+
+#boxes .box h3{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#boxes .box p{
+	font-size: 17px;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #350142;
+	text-align: center;
+}
+
+.hero{
+	min-height: 650px;
+	background: url(book7.jpg) no-repeat;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+.form-box{
+	width: 450px;
+	height: 500px;
+	position: relative;
+	top: 75px;
+	left: 100px;
+	background: #350142;
+	border-radius: 50px;
+	padding: 5px;
+	overflow: hidden;
+}
+.button-box{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0px 0px 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	color: white;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	border-radius: 30px;
+	transition: .5s;
+}
+.social-icons{
+	margin: 30px auto;
+	text-align: center;
+
+}
+.social-icons img{
+	width: 30px;
+	margin: 0px 12px;
+	box-shadow: 0 0 20px 0 #7f7f7f3d;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.input-field{
+	width: 100%;
+	padding: 10px 0px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: none;
+	color: white;
+}
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	margin: 50px;
+	cursor: pointer;
+	margin-top: 20px;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.submit-btn a{
+	text-decoration: none;
+	color: white;
+}
+#login{
+	left: 50px;
+}
+#register{
+	left: 500px;
+}
+
+.book{
+	background: linear-gradient(to bottom right, #a911f0, #4a036b);
+	height: 605px;
+	position: relative;
+}
+.book h1{
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 50px;
+}
+.bookImage img{
+	height: 400px;
+	width: 350px;
+	border-radius: 50px;
+	align-items: center;
+	padding-top: 20px;
+}
+.bookForm .issueButton{
+	width: 150px;
+	height: 40px;
+	margin-top: 20px;
+	background-color: purple;
+	color: white;
+	font-size: 25px;
+	border-radius: 50px;
+}
+
+caption{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.insertTable{
+	border: 5px solid #350142;
+	border-radius: 50px;
+	margin-top: 50px;
+	padding: 20px;
+	width: 600px;
+	background-color: #350142;
+}
+.insertTable tr td{
+	color: white;
+}
+.insertTable input[type="text"]{
+	width: 200px;
+	height: 20px;
+}
+
+.insertButton{
+	margin-top: 20px;
+	width: 80px;
+	font-size: 20px;
+	cursor: pointer;
+	color: white;
+	background-color: #350142;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	padding: 10px;
+}
+.profileImage{
+	border-radius: 50%;
+}
+.insertButton1{
+	margin-top: 20px;
+	width: 80px;
+	font-size: 20px;
+	cursor: pointer;
+	color: white;
+	background-color: #350142;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	padding: 10px;
+	position: absolute;
+	right: 48%;
+	top: 350px;
+}
